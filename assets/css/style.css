@@ -118,13 +118,14 @@ border-bottom: 0.5px solid black;
     padding-left: 100px;
   }
   .image img{
-    width: 2px;
+    width: 250px;
   }
   .news{
     display:flex;
     margin-top: 60px;
     box-sizing:border-box ;
     width: 54%;
+    justify-content: space-between;
   }
   .articles2 span{
     font-size: 14px;
