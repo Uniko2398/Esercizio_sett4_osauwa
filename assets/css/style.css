@@ -1,0 +1,100 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+   
+    box-sizing: border-box;
+    background-color: #F4BF19;
+    width: 100%;
+    color: black;
+    padding: 15px 30px;
+    border-bottom: 0.5px solid black;
+
+    
+    
+}
+.navbar_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navlinks a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: #F4BF19;
+padding-bottom: 30px;
+border-bottom: 0.5px solid black;
+}
+.title{
+    padding-left: 100px;
+    font-size: 55px;
+}
+.title h1{
+    margin-bottom: 15px;
+}
+.title p {
+    font-size: 27px;
+    margin-bottom: 0px;
+}
+.getstarted {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  .start-reading{
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+  .content{
+   
+    width: 80%;
+    margin: 0 auto;
+   box-sizing: border-box;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content:space-between;
+  }
+  .articles{
+    width: 320px;
+   
+   
+
+  }
+  .articles img{
+    width: 20px;
+  }
+  .articles span{
+    font-size: 12px;
+
+
+  }
+  .articles h3{
+    font-size: 14px;
+  }
+  .articles p {
+    color: grey;
+  }
+  br{
+    color: gray;
+  }
+
+  
