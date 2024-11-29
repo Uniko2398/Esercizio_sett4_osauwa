@@ -4,13 +4,14 @@ html , body{
     box-sizing: border-box;
 }
 .navbar{
-   
+   position: fixed;
     box-sizing: border-box;
     background-color: #F4BF19;
     width: 100%;
     color: black;
     padding: 15px 30px;
     border-bottom: 0.5px solid black;
+    z-index: 100;
 
     
     
@@ -26,6 +27,11 @@ html , body{
     text-decoration: none;
     color: black;
 }
+.navbar.scrolled {
+    background-color: white;
+    color: black;
+
+  }
 .hero{
     display: flex;
     justify-content: space-between;
@@ -47,6 +53,14 @@ border-bottom: 0.5px solid black;
 }
 .getstarted {
     background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  .getstarted.scrolled {
+    background-color: green;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -104,7 +118,7 @@ border-bottom: 0.5px solid black;
     padding-left: 100px;
   }
   .image img{
-    width: 250px;
+    width: 2px;
   }
   .news{
     display:flex;
@@ -140,6 +154,9 @@ border-bottom: 0.5px solid black;
     border-radius: 25%;
     font-weight: lighter;
 
+  }
+  .articles2 img{
+    width: 20px;
   }
   
   
